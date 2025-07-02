@@ -2,6 +2,7 @@
 
 # Install OpenAI and Dotenv for Python
 # TODO: Check why this can't be done in requirements.txt
+sudo apk update && sudo apk add python3 py3-pip nodejs npm git build-base
 pip install python-dotenv
 pip install openai
 
